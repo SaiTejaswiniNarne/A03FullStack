@@ -1,0 +1,29 @@
+<% include header %>
+<header class ="header">My different Social Websites links </header>
+
+        <div id ="links">
+        <br>
+        <a href="https://github.com/SaiTejaswiniNarne"> View the GitHub Profile </a><br>
+        <a href="https://bitbucket.org/SaiTejaswiniNarne/"> View the BitBucket Profile </a><br>
+</div>
+        <form id ="t">
+            Feedback:<input type="text" name="Feedback">
+            <p>Name
+            <input type="text" name="FirstName" value =" " required><br></p>
+            <p>Email
+                    <input type="text" name="email" value =" " required><br></p>
+
+            <p>Gender</p>
+            
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br>
+                <br>
+                <p>
+                    Any Questions
+                </p>
+                <textarea rows="4" cols="50"></textarea>
+                <button type ="button" name ="submit" onclick="alert( 'Thank you! your responce is recorded')">Submit</button> 
+
+            </form>
+            <% include footer %>
